@@ -2,5 +2,5 @@
 
 ## Wireframe
 test
-![wirerame]("./src/wireframe/wiretest.png")
+![wirerame]("./wiretest.png)
 
