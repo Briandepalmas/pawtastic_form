@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import  './FormsStyle.css'
+
 
 
 export class Forms extends Component {
@@ -46,7 +46,7 @@ export class Forms extends Component {
       <form onSubmit={this.handleChange}>
           <label for="breed">
                Breed
-               <input className="inputsize" type="text" placeholder="Pet's Name" onChange={this.handleChange}/>
+               <input className="inputsize" type="text" placeholder="Pet's Breed" onChange={this.handleChange}/>
                {/* <input className="inputsize" type="submit" value="Submit" onClick={this.handleSubmit}/> */}
           </label>
       </form> 
@@ -58,7 +58,7 @@ export class Forms extends Component {
       <form onSubmit={this.handleChange}>
           <label for="age">
                Birthday
-               <input className="inputsize" type="text" placeholder="Pet's Name" onChange={this.handleChange}/>
+               <input className="inputsize" type="text" placeholder="MM/DD/YYYY" onChange={this.handleChange}/>
                {/* <input className="inputsize" type="submit" value="Submit" onClick={this.handleSubmit}/> */}
           </label>
       </form> 

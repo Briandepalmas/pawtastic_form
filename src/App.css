@@ -1,3 +1,11 @@
 .name{
-    background-color: aqua;
+    background-color: green;
+}
+.inputsize{
+    height:30px;
+    width: 200px;
+}
+.mainContainer{
+    margin-left: 50vh;
+    margin-top: 10%;
 }
