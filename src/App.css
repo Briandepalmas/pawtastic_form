@@ -1,24 +1,37 @@
 body{
-    background-color: #FAECEB;
+    background-color: #545871;
+}
+h1{
+    color: #545871;
+    margin-left: 10%;
+    margin-top: 13%;
 }
 .name{
-  
+  margin-left: 5%;
+  padding-top: 10%;
 }
 .inputsize{
     height:35px;
     width: 200px;
 }
 .mainContainer{
+    background-color: #FAECEB;
+    height:600px;
+    width: 600px;
+    border-radius: 3%;
     margin-left: 50vh;
-    margin-top: 10%;
+    margin-top: 6%;
+    margin-bottom: 6%;
     color:#9497A7
 }
 .breed{
+    margin-left: 5%;
     margin-top: 3%;
 }
-.birthday{
-    margin-left: 29%;
-    margin-bottom: 9%;
+.birthday{  
+    margin-left: 45%;
+    
+    
 }
 h4{
     

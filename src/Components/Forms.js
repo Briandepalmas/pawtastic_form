@@ -30,6 +30,7 @@ export class Forms extends Component {
     render() {
         return (
   <div className="mainContainer">  
+       <h1>Yay!, we love dogs! Give us the basics about your pup.</h1> 
     <div className="name">
         <form onSubmit={this.handleChange}>
             <label for="petname">
