@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
+import Forms from './Components/Forms'
 import './App.css'
 
 export class App extends Component {
   constructor(props){
     super(props);
 
-    this.state={ value:''}
+    this.state={ 
+            value:''
+    }
 
 
     this.handleSubmit=this.handleSubmit.bind(this)
@@ -23,15 +26,9 @@ event.preventDefault()
 
   render() {
     return (
+      
       <div>
-        <form onSubmit={this.handleChange}>
-          <label>
-          Name:
-          <input type="text" onChange={this.handleChange}/>
-          <input type="submit" value="Submit" onClick={this.handleSubmit}/>
-        </label>
-        </form>
-        
+        <Forms/>
       </div>
     )
   }
