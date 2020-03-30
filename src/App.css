@@ -1,11 +1,25 @@
+body{
+    background-color: #FAECEB;
+}
 .name{
-    background-color: green;
+  
 }
 .inputsize{
-    height:30px;
+    height:35px;
     width: 200px;
 }
 .mainContainer{
     margin-left: 50vh;
     margin-top: 10%;
+    color:#9497A7
+}
+.breed{
+    margin-top: 3%;
+}
+.birthday{
+    margin-left: 29%;
+    margin-bottom: 9%;
+}
+h4{
+    
 }

@@ -33,7 +33,7 @@ export class Forms extends Component {
     <div className="name">
         <form onSubmit={this.handleChange}>
             <label for="petname">
-                 Name
+                 <h4>Name</h4>
                  <input className="inputsize" type="text" placeholder="Pet's Name" onChange={this.handleChange}/>
                  {/* <input className="inputsize" type="submit" value="Submit" onClick={this.handleSubmit}/> */}
             </label>
@@ -45,7 +45,7 @@ export class Forms extends Component {
       <div className="breed">
       <form onSubmit={this.handleChange}>
           <label for="breed">
-               Breed
+               <h4>Breed</h4>
                <input className="inputsize" type="text" placeholder="Pet's Breed" onChange={this.handleChange}/>
                {/* <input className="inputsize" type="submit" value="Submit" onClick={this.handleSubmit}/> */}
           </label>
@@ -57,7 +57,7 @@ export class Forms extends Component {
        <div className="birthday">
       <form onSubmit={this.handleChange}>
           <label for="age">
-               Birthday
+               <h4>Birthday</h4>
                <input className="inputsize" type="text" placeholder="MM/DD/YYYY" onChange={this.handleChange}/>
                {/* <input className="inputsize" type="submit" value="Submit" onClick={this.handleSubmit}/> */}
           </label>
