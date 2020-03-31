@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Forms from './Components/Forms'
+import Footer from './Components/Footer'
 import './App.css'
 
 export class App extends Component {
@@ -29,6 +30,7 @@ event.preventDefault()
       
       <div>
         <Forms/>
+        <Footer/>
       </div>
     )
   }
